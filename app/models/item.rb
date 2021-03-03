@@ -18,11 +18,9 @@ class Item < ApplicationRecord
 
   def self.search(search)
     if search != ""
-      Tweet.where('text LIKE(?)', "%#{search}%")
+      Item.where('text LIKE(?)', "%#{search}%")
     else
-      Tweet.all
+      Item.all
     end
   end
-  
 end
-

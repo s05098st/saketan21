@@ -1,6 +1,6 @@
 <%= form_with(url: search_items_path, local: true, method: :get, class: "search-form") do |form| %>
   <%= form.text_field :keyword, placeholder: "キーワードを入力", class: "search-input" %>
-  <%= form.submit "調べる", class: "search-btn" %>
+  <%= form.submit "探す", class: "search-btn" %>
 <% end %>
 <div class="contents row">
   <% @items.each do |item| %>

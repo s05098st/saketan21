@@ -1,34 +1,22 @@
  <div class="img-upload">
       <div class="weight-bold-text">
-        画像
+        お酒の画像
         <span class="indispensable">任意</span>
       </div>
       <div class="click-upload">
         <p>
           クリックしてファイルをアップロード
         </p>
-      </div>
-    </div>
-    <div class="items-detail">
-      <div class="weight-bold-text">お酒の詳細</div>
-      <div class="form">
-        <div class="weight-bold-text">
-          飲み口
-        <span class="indispensable">必須</span>
-      </div>
-        <%= collection_select(:nomikuchi_id, Nomikuchi.all, :id, :name, {}, {class:"select-box", id:"item.nomikuchi"}) %>
-        <div class="wight-bold-text">
-          オススメの飲み方
-        <span class="indispensable">必須</span>
-      </div>
-        <%= collection_select(:nomikata_id, Nomikata.all, :id, :name, {}, {class:"select-box", id:"item.nomikata"}) %>
+         <%= file_field :image, id:"item.image" %>
       </div>
     </div>
 
    
    <%= form_with(model: item, local: true) do |form| %>
-      <%= form.text_field :name, placeholder: "酒蔵名（必須、最大50文字まで）" %>
-      <%= form.text_field :name, placeholder: "お酒の名前（必須、最大50文字まで）" %>
+      <%= form.text_field :name, placeholder: "酒蔵名（必須、最大40文字まで）" %>
+      <%= form.text_field :name, placeholder: "お酒の名前（必須、最大40文字まで）" %>
+      <%= form.text_field :name, placeholder: "飲み口（必須、甘口や辛口など）"%>
+      <%= form.text_field :name, placeholder: "オススメの飲み方（必須、冷酒や熱燗など）"%>
       <%= form.text_area :text, placeholder: "お酒の説明（必須、最大1,000文字まで）"%>
       <%= form.submit "投稿する" %>
    <% end %>
