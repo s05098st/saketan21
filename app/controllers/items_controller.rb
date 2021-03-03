@@ -13,7 +13,12 @@ class ItemsController < ApplicationController
   end
 
   def create
-    Item.new(item_params)
+    @item = Item.new(item_params)
+    if @item.save
+      redirect_to root_path
+    else  
+      render :new
+    end
   end
 
   def destroy
@@ -32,7 +37,7 @@ class ItemsController < ApplicationController
 
   private
   def item_params
-    params.require(:item).permit(:image, :name, :company_name, :description, :nomikata_id, :nomikuchi_id).merge(user_id: current_user.id)
+    params.require(:item).permit(:image, :company_name, :name, :nomikuchi_id, :nomikata_id, :description).merge(user_id: current_user.id)
   end
 
   def set_item
@@ -43,9 +48,5 @@ class ItemsController < ApplicationController
     unless user_signed_in?
       redirect_to action: :index
     end
-  end
-
-  def item_params
-    params.require(:message).permit(:content, :image).merge(user_id: current_user.id)
   end
 end

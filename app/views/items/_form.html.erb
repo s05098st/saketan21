@@ -7,12 +7,13 @@
         <p>
           クリックしてファイルをアップロード
         </p>
-         <%= file_field :image, id:"item.image" %>
+         
       </div>
     </div>
 
    
    <%= form_with(model: item, local: true) do |form| %>
+      <%= form.file_field :image, id:"item.image" %>
       <%= form.text_field :company_name, placeholder: "酒蔵名（必須、最大40文字まで）" %>
       <%= form.text_field :name, placeholder: "お酒の名前（必須、最大40文字まで）" %>
       <%= form.text_field :nomikuchi_id, placeholder: "飲み口（必須、甘口や辛口など）"%>
