@@ -13,7 +13,7 @@ class ItemsController < ApplicationController
   end
 
   def create
-    Item.create(item_params)
+    Item.new(item_params)
   end
 
   def destroy
@@ -43,5 +43,9 @@ class ItemsController < ApplicationController
     unless user_signed_in?
       redirect_to action: :index
     end
+  end
+
+  def item_params
+    params.require(:message).permit(:content, :image).merge(user_id: current_user.id)
   end
 end
