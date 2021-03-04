@@ -17,13 +17,6 @@ Saketan
 トラブルの際には管理者が把握できる様に考えております。
 
 ## DEMO
-https://user-images.githubusercontent.com/77376156/109937342-2515c880-7d12-11eb-8d5a-aa5ca3234a6b.mp4
-
-
-https://user-images.githubusercontent.com/77376156/109937348-2810b900-7d12-11eb-894e-dd1601f80baf.mp4
-
-
-https://user-images.githubusercontent.com/77376156/109937358-2b0ba980-7d12-11eb-84b1-44e1d86015e5.mp4
 
 
 ## 今後実装予定の機能
