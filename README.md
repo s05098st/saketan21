@@ -17,10 +17,13 @@ Saketan
 トラブルの際には管理者が把握できる様に考えております。
 
 ## DEMO
+# トップページ
 ![トップページ](https://user-images.githubusercontent.com/77376156/109941856-edf5e600-7d16-11eb-8687-1a5415a5f0f0.jpg)
 
+# 詳細画面
 ![詳細画面](https://user-images.githubusercontent.com/77376156/109942838-ef73de00-7d17-11eb-9329-209e947708b5.jpg)
 
+# 情報投稿
 <img width="957" alt="情報投稿" src="https://user-images.githubusercontent.com/77376156/109942877-f6025580-7d17-11eb-8d38-26af46fb1804.png">
 
 
