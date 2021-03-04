@@ -17,29 +17,14 @@ Saketan
 トラブルの際には管理者が把握できる様に考えております。
 
 ## DEMO
-## ＜トップページから会員登録画面へ遷移＞
-https://gyazo.com/4d8186ab8da82f0f62abb59b54113329
+https://user-images.githubusercontent.com/77376156/109937342-2515c880-7d12-11eb-8d5a-aa5ca3234a6b.mp4
 
-## ＜会員登録完了＞
-https://gyazo.com/42812337f2e83c3ffce8503f672d4632
 
-## ＜情報を投稿する＞
-https://gyazo.com/77be47b0e18e98080bde1033f244b134
+https://user-images.githubusercontent.com/77376156/109937348-2810b900-7d12-11eb-894e-dd1601f80baf.mp4
 
-## ＜投稿内容詳細画面＞
-https://gyazo.com/18dccdfa89c5dcc626f930a5add2bcbd
 
-## ＜投稿を削除する＞
-https://gyazo.com/1d2949aa210e71191b7099f7c2a57b0c
+https://user-images.githubusercontent.com/77376156/109937358-2b0ba980-7d12-11eb-84b1-44e1d86015e5.mp4
 
-## ＜投稿にコメントする＞
-https://gyazo.com/939e1b63813e9cdfcd0f7f8194e45b46
-
-## ＜投稿を検索する＞
-https://gyazo.com/f825ed7646f93ff45636e1a2d840a5c8
-
-## ＜ログアウト＞
-https://gyazo.com/84c26bbbb1625e8a7be9c4b159ea84c2
 
 ## 今後実装予定の機能
 投稿に対して、「いいね」評価ができる機能を付けたいと考えております。
