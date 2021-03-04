@@ -19,6 +19,11 @@ Saketan
 ## DEMO
 ![トップページ](https://user-images.githubusercontent.com/77376156/109941856-edf5e600-7d16-11eb-8687-1a5415a5f0f0.jpg)
 
+![詳細画面](https://user-images.githubusercontent.com/77376156/109942838-ef73de00-7d17-11eb-9329-209e947708b5.jpg)
+
+<img width="957" alt="情報投稿" src="https://user-images.githubusercontent.com/77376156/109942877-f6025580-7d17-11eb-8d38-26af46fb1804.png">
+
+
 
 ## 今後実装予定の機能
 投稿に対して、「いいね」評価ができる機能を付けたいと考えております。  
