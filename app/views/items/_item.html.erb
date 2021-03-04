@@ -1,6 +1,7 @@
-<div class="content_post" style="background-image: url(<%= item.image %>);">
+<div class="content_post">
+   <%= image_tag item.image.variant(resize: '500x350'), class: 'message-image' %>
    <div class="more">
-      <%= image_tag item.image, class: 'item-image' %>
+      <%= image_tag "atsukan2.png", class: 'item-image' %>
       <ul class="more_list">
         <li>
           <%= link_to '詳細', item_path(item.id), method: :get %>
@@ -15,7 +16,7 @@
   <p><%= item.name %></p>
   <span class="name">
     <a href="/users/<%= item.user.id %>">
-      <span>投稿者</span><%= item.user.nickname %>
+      <span>written by</span><%= item.user.nickname %>
     </a>
   </span>
 </div>

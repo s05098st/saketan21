@@ -752,8 +752,8 @@ header.header div.header__bar.row {
 }
 
 header.header div.header__bar.row h1.grid-6 {
-  font-size: 20px;
-  line-height: 41px;
+  font-size: 40px;
+  line-height: 45px;
   float: left;
 }
 
@@ -791,7 +791,7 @@ header.header .user_nav span {
 }
 
 header.header .user_nav span:after {
-  content: '▼';
+  content: '🔽';
   font-size: .7em;
   margin-left: -4px;
 }

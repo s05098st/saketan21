@@ -1,3 +1,5 @@
+<div class = "wrapper">
+
 <%= form_with(url: search_items_path, local: true, method: :get, class: "search-form") do |form| %>
   <%= form.text_field :keyword, placeholder: "キーワードを入力", class: "search-input" %>
   <%= form.submit "探す", class: "search-btn" %>
@@ -6,4 +8,6 @@
   <% @items.each do |item| %>
     <%= render partial: "item", locals: { item: item } %>
   <% end %>
+</div>
+
 </div>

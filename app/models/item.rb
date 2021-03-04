@@ -4,8 +4,8 @@ class Item < ApplicationRecord
     validates :image
     validates :company_name, length: { maximum: 40}
     validates :name, length: { maximum: 40}
-    validates :nomikuchi_id
-    validates :nomikata_id
+    validates :nomikuchi
+    validates :nomikata
     validates :description, length: { maximum: 1000 }
   end
 
@@ -16,7 +16,7 @@ class Item < ApplicationRecord
 
   def self.search(search)
     if search != ""
-      Item.where('text LIKE(?)', "%#{search}%")
+      Item.where('description LIKE(?)', "%#{search}%")
     else
       Item.all
     end

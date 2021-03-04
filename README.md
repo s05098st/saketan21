@@ -25,8 +25,8 @@ has_many:comments
 |-------------|----------|-----------------------------|
 |company_name |string    |null: false                  |
 |name         |string    |null: false                  |
-|nomikuchi_id |integer   |null: false                  |
-|nomikata_id  |integer   |null: false                  |
+|nomikuchi    |string    |null: false                  |
+|nomikata     |string    |null: false                  |
 |description  |text      |null: false                  |
 |user         |references|null: false                  |
 

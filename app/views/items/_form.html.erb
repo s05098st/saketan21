@@ -1,3 +1,4 @@
+<div class = "wrapper">
  <div class="img-upload">
       <div class="weight-bold-text">
         お酒の画像
@@ -16,8 +17,9 @@
       <%= form.file_field :image, id:"item.image" %>
       <%= form.text_field :company_name, placeholder: "酒蔵名（必須、最大40文字まで）" %>
       <%= form.text_field :name, placeholder: "お酒の名前（必須、最大40文字まで）" %>
-      <%= form.text_field :nomikuchi_id, placeholder: "飲み口（必須、甘口や辛口など）"%>
-      <%= form.text_field :nomikata_id, placeholder: "オススメの飲み方（必須、冷酒や熱燗など）"%>
+      <%= form.text_field :nomikuchi, placeholder: "飲み口（必須、甘口や辛口など）"%>
+      <%= form.text_field :nomikata, placeholder: "オススメの飲み方（必須、冷酒や熱燗など）"%>
       <%= form.text_area :description, placeholder: "お酒の説明（必須、最大1,000文字まで）"%>
       <%= form.submit "投稿する" %>
    <% end %>
+<% end %>
