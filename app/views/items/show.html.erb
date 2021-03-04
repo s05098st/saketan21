@@ -9,11 +9,11 @@
     </div>
     <% end %>
     <span class="name">
-     <span>お酒の名前</span><p><%= @item.name %></p>
-     <span>酒蔵の名前</span><div><%= @item.company_name %></div>
-     <span>味わい</span><div><%= @item.nomikuchi %></div>
-     <span>美味しい飲み方</span><div><%= @item.nomikata %></div>
-     <span>投稿者のコメント</span><div><%= @item.description %></div>
+     <span>＜お酒の名前＞</span><p><%= @item.name %></p>
+     <span>＜酒蔵の名前＞</span><div><%= @item.company_name %></div>
+     <span>＜味わい＞</span><div><%= @item.nomikuchi %></div>
+     <span>＜オススメの飲み方＞</span><div><%= @item.nomikata %></div>
+     <span>＜投稿者のコメント＞</span><div><%= @item.description %></div>
     <span class="name">
       <a href="/users/<%= @item.user.id %>">
         <span>written by</span><%= @item.user.nickname %>
